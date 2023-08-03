@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "87603890-CF53-4961-BFDD-7AA71089F2B7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18D9978E-A083-492C-AB6A-AAD47054E188"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleVM/SimpleVM/VMDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "UTType"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "18D9978E-A083-492C-AB6A-AAD47054E188 - 2ba2035f871c6c21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for macOSVM"
+                  moduleName = "SimpleVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/Desktop/SimpleVM/SimpleVM/SimpleVM/VMDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "18D9978E-A083-492C-AB6A-AAD47054E188 - ec28d9f4c94c189"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UniformTypeIdentifiers.UTType.macOSVM.unsafeMutableAddressor : UniformTypeIdentifiers.UTType"
+                  moduleName = "SimpleVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ls/Desktop/SimpleVM/SimpleVM/SimpleVM/VMDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

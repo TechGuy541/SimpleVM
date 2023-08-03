@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4911E0632A7C1C050008B60B /* SimpleVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0622A7C1C050008B60B /* SimpleVMApp.swift */; };
-		4911E0652A7C1C050008B60B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0642A7C1C050008B60B /* ContentView.swift */; };
-		4911E0672A7C1C060008B60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4911E0662A7C1C060008B60B /* Assets.xcassets */; };
-		4911E06A2A7C1C060008B60B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4911E0692A7C1C060008B60B /* Preview Assets.xcassets */; };
+		4911E07F2A7C1C140008B60B /* VMInstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0712A7C1C140008B60B /* VMInstallView.swift */; };
+		4911E0802A7C1C140008B60B /* VMUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0722A7C1C140008B60B /* VMUIView.swift */; };
+		4911E0812A7C1C140008B60B /* VMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0742A7C1C140008B60B /* VMView.swift */; };
+		4911E0822A7C1C140008B60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4911E0752A7C1C140008B60B /* Assets.xcassets */; };
+		4911E0832A7C1C140008B60B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0762A7C1C140008B60B /* ViewModel.swift */; };
+		4911E0842A7C1C140008B60B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4911E0782A7C1C140008B60B /* Preview Assets.xcassets */; };
+		4911E0852A7C1C140008B60B /* VMInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E0792A7C1C140008B60B /* VMInstance.swift */; };
+		4911E0862A7C1C140008B60B /* MacVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E07A2A7C1C140008B60B /* MacVMApp.swift */; };
+		4911E0872A7C1C140008B60B /* VMContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E07B2A7C1C140008B60B /* VMContent.swift */; };
+		4911E0882A7C1C140008B60B /* VMDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E07C2A7C1C140008B60B /* VMDocument.swift */; };
+		4911E0892A7C1C140008B60B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911E07D2A7C1C140008B60B /* ContentView.swift */; };
+		4911E08A2A7C1C140008B60B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4911E07E2A7C1C140008B60B /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4911E05F2A7C1C050008B60B /* SimpleVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4911E0622A7C1C050008B60B /* SimpleVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleVMApp.swift; sourceTree = "<group>"; };
-		4911E0642A7C1C050008B60B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4911E0662A7C1C060008B60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4911E0692A7C1C060008B60B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4911E0712A7C1C140008B60B /* VMInstallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMInstallView.swift; sourceTree = "<group>"; };
+		4911E0722A7C1C140008B60B /* VMUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMUIView.swift; sourceTree = "<group>"; };
+		4911E0732A7C1C140008B60B /* VirtualMachines.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = VirtualMachines.entitlements; sourceTree = "<group>"; };
+		4911E0742A7C1C140008B60B /* VMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMView.swift; sourceTree = "<group>"; };
+		4911E0752A7C1C140008B60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4911E0762A7C1C140008B60B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4911E0782A7C1C140008B60B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4911E0792A7C1C140008B60B /* VMInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMInstance.swift; sourceTree = "<group>"; };
+		4911E07A2A7C1C140008B60B /* MacVMApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacVMApp.swift; sourceTree = "<group>"; };
+		4911E07B2A7C1C140008B60B /* VMContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMContent.swift; sourceTree = "<group>"; };
+		4911E07C2A7C1C140008B60B /* VMDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VMDocument.swift; sourceTree = "<group>"; };
+		4911E07D2A7C1C140008B60B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4911E07E2A7C1C140008B60B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +52,7 @@
 		4911E0562A7C1C050008B60B = {
 			isa = PBXGroup;
 			children = (
-				4911E0612A7C1C050008B60B /* SimpleVM */,
+				4911E0702A7C1C140008B60B /* SimpleVM */,
 				4911E0602A7C1C050008B60B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,21 +65,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4911E0612A7C1C050008B60B /* SimpleVM */ = {
+		4911E0702A7C1C140008B60B /* SimpleVM */ = {
 			isa = PBXGroup;
 			children = (
-				4911E0622A7C1C050008B60B /* SimpleVMApp.swift */,
-				4911E0642A7C1C050008B60B /* ContentView.swift */,
-				4911E0662A7C1C060008B60B /* Assets.xcassets */,
-				4911E0682A7C1C060008B60B /* Preview Content */,
+				4911E0712A7C1C140008B60B /* VMInstallView.swift */,
+				4911E0722A7C1C140008B60B /* VMUIView.swift */,
+				4911E0732A7C1C140008B60B /* VirtualMachines.entitlements */,
+				4911E0742A7C1C140008B60B /* VMView.swift */,
+				4911E0752A7C1C140008B60B /* Assets.xcassets */,
+				4911E0762A7C1C140008B60B /* ViewModel.swift */,
+				4911E0772A7C1C140008B60B /* Preview Content */,
+				4911E0792A7C1C140008B60B /* VMInstance.swift */,
+				4911E07A2A7C1C140008B60B /* MacVMApp.swift */,
+				4911E07B2A7C1C140008B60B /* VMContent.swift */,
+				4911E07C2A7C1C140008B60B /* VMDocument.swift */,
+				4911E07D2A7C1C140008B60B /* ContentView.swift */,
+				4911E07E2A7C1C140008B60B /* Info.plist */,
 			);
-			path = SimpleVM;
+			name = SimpleVM;
+			path = SimpleVM/SimpleVM;
 			sourceTree = "<group>";
 		};
-		4911E0682A7C1C060008B60B /* Preview Content */ = {
+		4911E0772A7C1C140008B60B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4911E0692A7C1C060008B60B /* Preview Assets.xcassets */,
+				4911E0782A7C1C140008B60B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,8 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4911E06A2A7C1C060008B60B /* Preview Assets.xcassets in Resources */,
-				4911E0672A7C1C060008B60B /* Assets.xcassets in Resources */,
+				4911E0842A7C1C140008B60B /* Preview Assets.xcassets in Resources */,
+				4911E0822A7C1C140008B60B /* Assets.xcassets in Resources */,
+				4911E08A2A7C1C140008B60B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4911E0652A7C1C050008B60B /* ContentView.swift in Sources */,
-				4911E0632A7C1C050008B60B /* SimpleVMApp.swift in Sources */,
+				4911E0892A7C1C140008B60B /* ContentView.swift in Sources */,
+				4911E0802A7C1C140008B60B /* VMUIView.swift in Sources */,
+				4911E07F2A7C1C140008B60B /* VMInstallView.swift in Sources */,
+				4911E0882A7C1C140008B60B /* VMDocument.swift in Sources */,
+				4911E0872A7C1C140008B60B /* VMContent.swift in Sources */,
+				4911E0832A7C1C140008B60B /* ViewModel.swift in Sources */,
+				4911E0852A7C1C140008B60B /* VMInstance.swift in Sources */,
+				4911E0862A7C1C140008B60B /* MacVMApp.swift in Sources */,
+				4911E0812A7C1C140008B60B /* VMView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.catsoftware.SimpleVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -316,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.catsoftware.SimpleVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
