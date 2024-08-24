@@ -2,7 +2,7 @@
 
 Welcome to the SimpleVM page.
 
-To use this app either download it off the App Store or clone this project and run SimpleVM with Xcode.
+To use this app clone this project and run SimpleVM with Xcode.
 
 How to use SimpleVM here: https://www.youtube.com/watch?v=jCPCF0atjHo
 
